@@ -8,7 +8,7 @@ from selenium.webdriver.common.keys import Keys
 import selectors_config as FlipkartSelectors
 
 # Global variable to store our browser
-driver = None  # Initialize driver as None
+driver = None 
 
 def setup_browser():
     """Setup and open Chrome browser"""
